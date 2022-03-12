@@ -733,7 +733,7 @@ public abstract class IMatrix implements Cloneable, Serializable {
     /**
      * The square matrix of A' * A or A * A', whichever is smaller.
      * For SVD, we compute eigenvalue decomposition of A' * A
-     * when m >= n, or that of A * A' when m < n.
+     * when m &ge; n, or that of A * A' when m &lt; n.
      */
     static class Square extends IMatrix {
         /**
@@ -815,7 +815,7 @@ public abstract class IMatrix implements Cloneable, Serializable {
     /**
      * Returns the matrix of A' * A or A * A', whichever is smaller.
      * For SVD, we compute eigenvalue decomposition of A' * A
-     * when m >= n, or that of A * A' when m < n.
+     * when m &ge; n, or that of A * A' when m &lt; n.
      */
     public IMatrix square() {
         return new Square(this);

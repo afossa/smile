@@ -52,7 +52,7 @@ import smile.math.MathEx;
  * also provides a heuristic that is simple and works reasonably well.
  *
  * @see MDS
- * @see smile.projection.KPCA
+ * @see smile.feature.extraction.KPCA
  *
  * @author Haifeng Li
  */
